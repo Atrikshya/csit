@@ -1,0 +1,132 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+}
+nav{
+    background-color: #21130d;
+}
+nav a{
+    color: coral;
+    padding: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+nav a:hover{
+    background-color: rgba(0, 200, 255, 0.728);
+    color: blue;
+}
+nav a:first-child{
+    background-color: rgb(23, 228, 101);
+    color: blue;
+}
+#banner{}
+    .box{
+        display: flex;
+        padding: 20px 0;
+    }
+.box img{
+    width: 50%;
+    height: 300px;
+}
+.content{
+    padding: 30px 0;
+   
+}
+.content h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    padding: 30px;
+
+}
+.content p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-left: 30px;
+}
+#feature{
+    display: flex;
+}
+#feature .box1{
+   width: 49%;
+   position: relative;
+}
+.box1 img{
+    width: 100%;
+    justify-content: space-between;
+    height: 450px;
+}
+.box1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+   background-color: rgb(245, 237, 237);
+   position: absolute;
+   top: 0;
+   width: 150px;
+   right: 10;   
+   opacity: 0.5;
+}
+footer{
+    background-color: black;
+    padding: 30px 0;
+}
+footer .container{
+    display: flex;
+}
+.footer_box{
+    width: 33% ;
+    color: white;
+}
+.footer_box h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted grey;
+    display: inline-block;
+}
+.footer_box ul{
+    margin: 10px 0;
+    list-style: none;
+}
+.footer_box ul li{
+    padding: 5px 0;
+}
+.footer_box ul li a{
+    color: chartreuse;
+    font: normal 16px helvetica;
+    text-decoration: none;
+}
+.footer_box ul li a:hover{
+    text-decoration: underline;
+}
+#contact .container{
+    display: flex;
+
+}
+.form,.map{
+    width: 50%;
+    padding: 10px;
+}
+.form label{
+    font: bold 16px arial;
+    display: block;
+
+}
+.form input,.form textarea{
+    width: 100%;
+    padding: 5px;
+
+}
+.form input[type=submit]{
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+    background-color: blueviolet;
+    border: ;
+
+}
